@@ -1,0 +1,7 @@
+# Go
+*.exe
+*.test
+*.out
+
+# OS
+.DS_Store

@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: streamly
+      POSTGRES_PASSWORD: streamly
+      POSTGRES_DB: streamly
+    ports:
+      - "5432:5432"
+
+  valkey:
+    image: valkey/valkey:8
+    ports:
+      - "6379:6379"
