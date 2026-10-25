@@ -2,6 +2,8 @@
 *.exe
 *.test
 *.out
+/api/api
+/worker/worker
 
 # OS
 .DS_Store
